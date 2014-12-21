@@ -43,3 +43,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+#use vk api gem
+gem 'vkontakte_api', '~> 1.4'
+
+#add bower to manage frontend dependencies
+gem 'bower-rails'

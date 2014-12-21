@@ -1,0 +1,10 @@
+<h1>Parse vk.com</h1>
+
+<div class="col-md-6">
+	<form method="post">
+		<input type="text" name="owner_id" class="form-control" id="owner_id">
+		<input type="text" name="count" class="form-control" id="count">
+		<button type="submit" name="submitbtn" class="btn btn-default" id="submitbtn" value="">Отправить</button>
+	</form>
+</div>
+
