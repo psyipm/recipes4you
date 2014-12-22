@@ -1,7 +1,7 @@
 <h1>Parse vk.com</h1>
 
 <div class="col-md-4">
-	<form method="post">
+	<form method="post" action="/parse/parse">
 		<div class="form-group">
 			<label for="owner_id">Owner ID</label>
 			<input type="text" name="owner_id" class="form-control" id="owner_id">
@@ -10,7 +10,10 @@
 			<label for="count">Count</label>
 			<input type="text" name="count" class="form-control" id="count">
 		</div>
+		<div class="form-group">
+			<label for="offset">Offset</label>
+			<input type="text" name="offset" class="form-control" id="offset">
+		</div>
 		<button type="submit" name="submitbtn" class="btn btn-default" id="submitbtn" value="">Submit</button>
 	</form>
 </div>
-
